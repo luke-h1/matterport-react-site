@@ -36,7 +36,7 @@ function Navbar({ navLinkStyles, iconStyles, title }) {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/houses"
                 className={navLinkStyles}
@@ -45,7 +45,7 @@ function Navbar({ navLinkStyles, iconStyles, title }) {
               >
                 Houses
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 to="/apartments"

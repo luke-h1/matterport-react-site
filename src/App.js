@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HeroHome from './components/HeroHome';
 import Footer from './components/Footer';
+import Apartments from './components/Apartments';
 function App() {
   return (
     <Fragment>
@@ -12,8 +13,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={HeroHome} /> 
-        {/* <Route path='/houses' exact component={Houses} /> 
-        <Route path='/apartments' exact component={Apartments} />  */}
+         {/* <Route path='/houses' exact component={Houses} />  */}
+        <Route path='/apartments' exact component={Apartments} />  
       </Switch>
       <Footer /> 
       </BrowserRouter>

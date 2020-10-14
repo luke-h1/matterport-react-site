@@ -41,8 +41,7 @@ function HeroHome({ title, introText, introDesc }) {
                 <iframe className='showcase__matterport'
                   width="653"
                   height="480"
-                  src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1
-        "
+                  src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1"
                   frameborder="0"
                   allowfullscreen
                   allow="xr-spatial-tracking"
