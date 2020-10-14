@@ -33,13 +33,13 @@ function HeroHome({ title, introText, introDesc }) {
           <div className="row home__hero-row">
             <div className="col">
               <div className="home__hero-text-wrapper">
-                <h1>Take a look at the available properties</h1>
+                <h1>Take a look at the property of the week..</h1>
               </div>
             </div>
             <div className="col">
               <div className="center">
                 <iframe className='showcase__matterport'
-                  width="853"
+                  width="653"
                   height="480"
                   src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1
         "

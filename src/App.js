@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HeroHome from './components/HeroHome';
+import Footer from './components/Footer';
 function App() {
   return (
     <Fragment>
@@ -14,7 +15,7 @@ function App() {
         {/* <Route path='/houses' exact component={Houses} /> 
         <Route path='/apartments' exact component={Apartments} />  */}
       </Switch>
-      {/* <Footer />  */}
+      <Footer /> 
       </BrowserRouter>
       <Card />
     </Fragment>
