@@ -12,9 +12,8 @@ function HeroHome({ title, introText, introDesc }) {
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{title}</div>
                 <p className="paragraph">{introText}</p>
-                <br /> 
+                <br />
                 <p className="paragraph">{introDesc}</p>
-
               </div>
             </div>
             <div className="col">
@@ -29,6 +28,30 @@ function HeroHome({ title, introText, introDesc }) {
           </div>
         </div>
       </div>
+      <div className="showcase">
+        <div className="container">
+          <div className="row home__hero-row">
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1>Take a look at the available properties</h1>
+              </div>
+            </div>
+            <div className="col">
+              <div className="center">
+                <iframe className='showcase__matterport'
+                  width="853"
+                  height="480"
+                  src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1
+        "
+                  frameborder="0"
+                  allowfullscreen
+                  allow="xr-spatial-tracking"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </Fragment>
   );
 }
@@ -36,7 +59,8 @@ function HeroHome({ title, introText, introDesc }) {
 HeroHome.defaultProps = {
   title: 'Lakewood real estate',
   introText: 'The best real estate company around',
-  introDesc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quibusdam deleniti ullam earum eum dolorum eos harum veritatis nam. Temporibus id expedita veritatis repudiandae porro nobis reiciendis provident quasi. Eaque.',
+  introDesc:
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quibusdam deleniti ullam earum eum dolorum eos harum veritatis nam. Temporibus id expedita veritatis repudiandae porro nobis reiciendis provident quasi. Eaque.',
 };
 
 HeroHome.propTypes = {
@@ -44,4 +68,3 @@ HeroHome.propTypes = {
   introText: PropTypes.string.isRequired,
 };
 export default HeroHome;
-

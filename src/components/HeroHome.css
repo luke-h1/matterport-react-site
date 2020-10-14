@@ -166,7 +166,6 @@ img {
   flex-direction: column;
   text-align: center;
   background-color: #1c2237;
-  border: 1px solid #fff;
   color: #fff;
   width: 350px;
   border-radius: 20px;
@@ -265,12 +264,39 @@ img {
     font-family: inherit;
   }
 }
+.home__hero-text-wrapper h1 { 
+  text-align: left;
+}
+
+.center { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase__matterport { 
+  margin-top: 1em;
+  border-radius: 20px;
+
+}
+
+.showcase { 
+  padding: 0 50px 50px 50px;
+  margin-bottom: 15px;
+  flex: 1;
+  max-width: 100%;
+  flex-basis: 50%;
+  background-color: #1c2237;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
 
 @media (max-width: 640px) {
   .skills-container {
     text-align: center;
     background-color: #1c2237;
-    border: 1px solid #fff;
     color: #fff;
     width: 450px;
     border-radius: 20px;
@@ -304,7 +330,6 @@ img {
   .skills-container {
     text-align: center;
     background-color: #1c2237;
-    border: 1px solid #fff;
     color: #fff;
     width: 450px;
     border-radius: 20px;
