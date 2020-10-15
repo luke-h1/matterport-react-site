@@ -18,38 +18,21 @@ function HeroHome({ title, introText, introDesc }) {
             </div>
             <div className="col">
               <div className="home__hero-img-wrapper">
-                <img
-                  src={HomeImage}
-                  alt="Image of apartments"
-                  className="home__hero-img"
-                />
+                <img src={HomeImage} alt="" className="home__hero-img" />
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="showcase">
-        <div className="container">
-          <div className="row home__hero-row">
-            <div className="col">
-              <div className="home__hero-text-wrapper">
-                <h1>Take a look at the property of the week..</h1>
-              </div>
-            </div>
-            <div className="col">
-              <div className="center">
-                <iframe className='showcase__matterport'
-                  width="653"
-                  height="480"
-                  src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1"
-                  frameborder="0"
-                  allowfullscreen
-                  allow="xr-spatial-tracking"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
+        <iframe
+          className="showcase__matterport"
+          width="853"
+          height="480"
+          src="https://my.matterport.com/show/?m=4pYEangv54B&mls=1"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="xr-spatial-tracking"
+          title="house"
+        ></iframe>
       </div>
     </Fragment>
   );
